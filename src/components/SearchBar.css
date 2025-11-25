@@ -1,0 +1,10 @@
+/* src/components/SearchBar.css */
+
+.search-box {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  

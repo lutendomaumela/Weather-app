@@ -1,0 +1,66 @@
+.weather-card {
+  background: #ffffff; /* Solid white background */
+  border-radius: 15px; /* Smooth rounded corners */
+  padding: 30px;
+  margin: 20px auto;
+  text-align: center;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+  max-width: 400px;
+  color: #333; /* Neutral text color for readability */
+  font-family: 'Arial', sans-serif;
+}
+
+.weather-card h3 {
+  font-size: 1.8rem;
+  color: #333; /* Dark text for the city name */
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.weather-card p {
+  margin: 8px 0;
+  font-size: 1rem;
+  color: #666; /* Slightly muted text color for secondary data */
+}
+
+.weather-card .temperature {
+  font-size: 2.5rem;
+  color: #f57c00; /* Bright orange to highlight temperature */
+  margin: 15px 0;
+  font-weight: bold;
+}
+
+.weather-card .description {
+  text-transform: uppercase; /* Uppercase styling for emphasis */
+  color: #555; /* Subtle gray for weather description */
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.weather-card .icon {
+  font-size: 3rem;
+  margin: 10px 0;
+  color: #4caf50; /* Green icon to match the theme */
+}
+
+.weather-card .wind {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  font-size: 1rem;
+  color: #3f51b5; /* Cool blue color to represent wind */
+  font-weight: bold;
+}
+
+.weather-card .wind span {
+  margin-left: 5px; /* Spacing between icon and text */
+}
+
+
+/* Add slight hover effect for interactivity */
+.weather-card:hover {
+  transform: translateY(-5px); /* Move card up slightly */
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3); /* Enhance shadow */
+  transition: 0.3s ease-in-out;
+}
